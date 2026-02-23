@@ -9,13 +9,13 @@ import (
 type (
 	// Config -.
 	Config struct {
-		App     App
-		HTTP    HTTP
-		Log     Log
-		PG      PG
-		GRPC    GRPC
-		RMQ     RMQ
-		NATS    NATS
+		App  App
+		HTTP HTTP
+		Log  Log
+		PG   PG
+		// GRPC GRPC
+		// RMQ     RMQ
+		// NATS    NATS
 		Metrics Metrics
 		Swagger Swagger
 	}
